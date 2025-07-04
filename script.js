@@ -54,7 +54,7 @@ function screen_loader(){
     
     setTimeout(() => {
         load.style.opacity = "0";;
-    }, 4000);
+    }, 4500);
     
 }
 

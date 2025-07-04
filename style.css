@@ -1352,4 +1352,82 @@ html , body{
         top: 45%;
         width: 100vw;
     }
+
+    .black-box #upper-text{
+        position: absolute;
+        top: 15%;
+        left: 4%;
+        font-size: 20px;
+        border-left: 2px solid #504a45;
+
+    }
+
+    .black-box #upper-text h1{
+
+        font-size: 24px;
+
+    }
+
+
+
+
+#page4 .black-box{
+    position: relative;
+    top: 5%;
+    height: 80vh;
+    width: 100%;
+    background-color: #00000b;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0vw 2vw;
+    border-radius: 21px;
+    overflow: hidden;
+    gap: 14px;
+
+}
+
+#page4 #right-side{
+    position: absolute;
+
+    height: 100%;
+    width: 100vw;
+}
+
+#page4 img{
+    position: absolute;
+    right: 0%;
+    width: 60%;
+    height: 80vh;
+    background-size: cover;
+    border-radius: 21px;
+    background-size: cover;
+}
+
+
+
+#page4 #left-side p{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 30vw;
+    font-size: 12px;
+}
+
+
+}
+
+
+@media(max-width:1000px){
+
+
+    .black-box #upper-text{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-size: 30px;
+    border-left: 2px solid #504a45;
+
+}
+
 }
